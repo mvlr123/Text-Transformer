@@ -1,12 +1,13 @@
 # Text Transformer
 
-Programa em C que transforma textos com duas funcionalidades:
+Este projeto é um transformador de textos escrito em C. Ele oferece funcionalidades como:
 
-- **Encrypt text**: Aplica uma criptografia simples em um texto fornecido.
-- **Dancing text**: Alterna maiúsculas e minúsculas para criar um efeito “dancing”.
+- Criptografia simples de textos
+- Transformação de textos no estilo "Dancing Text"
 
-## Como usar
+## Como compilar
 
-1. Compile o código:  
+Para compilar o programa, use o comando:
+
 ```bash
-gcc transformador.c -o transformador
+gcc TextTransformer.c -o TextTransformer
